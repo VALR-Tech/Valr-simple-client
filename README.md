@@ -1,9 +1,5 @@
 # VALR Simple Python Client
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/valr-simple-client)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/valr-simple-client)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Moon-developer/Valr-simple-client?label=version)  
-![PyPI - Status](https://img.shields.io/pypi/status/valr-simple-client)  
 A Simple Python Library to integrate with [VALR API](https://docs.valr.com).
 
 ## Cloning source
@@ -11,7 +7,7 @@ A Simple Python Library to integrate with [VALR API](https://docs.valr.com).
 Get this package by:
 
 ```shell
-$ git clone https://github.com/Moon-developer/Valr-simple-client.git
+$ git clone https://github.com/VALR-Tech/Valr-simple-client.git
 ```
 
 Activate the virtual environment with venv before coding, testing & packaging:
@@ -41,7 +37,9 @@ $ python3 example.py
 To use this as a package in your project simply run:
 
 ```shell
-$ pip install valr-simple-client
+git clone https://github.com/VALR-Tech/Valr-simple-client.git
+cd Valr-simple-client
+python3 setup.py install
 ```
 
 Then import:
